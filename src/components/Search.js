@@ -64,7 +64,7 @@ const Search = () => {
         <div className="crud shadow-lg p-3 mb-5 mt-5 bg-body rounded">
           <div class="row ">
             <div class="col-sm-3 mt-5 mb-4 text-gred">
-              {/* <div className="search">
+              <div className="search">
                 <form class="form-inline">
                   <input
                     class="form-control mr-sm-2"
@@ -73,7 +73,7 @@ const Search = () => {
                     aria-label="Search"
                   />
                 </form>
-              </div> */}
+              </div>
             </div>
             <div
               class="col-sm-3 offset-sm-2 mt-5 mb-4 text-gred"

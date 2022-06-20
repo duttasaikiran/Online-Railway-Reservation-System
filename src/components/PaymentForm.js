@@ -5,13 +5,13 @@ import { Link } from 'react-router-dom'
 
 const PaymentForm = () => {
 
-    const [pnrNo, setpnrNo] = useState('')
+    const [pnrNo, getpnrNo] = useState('')
     const [bankName, setbankName] = useState('')
     const [cardNo, setcardNo] = useState('')
     const [cvv, setcvv] = useState('')
     const [classType, setclassType] = useState('')
     const history = useHistory();
-
+  
     const makePayment = (e) => {
         e.preventDefault();
         const PaymentDetails = { pnrNo,bankName,cardNo,cvv,classType}
@@ -46,7 +46,7 @@ const PaymentForm = () => {
                     name="pnrNo"
                     className="form-control"
                     value={pnrNo}
-                    onChange={(e) => setpnrNo(e.target.value)}>
+                    onChange={(e) => getpnrNo(e.target.value)}>
                   </input> 
 
                 </div>

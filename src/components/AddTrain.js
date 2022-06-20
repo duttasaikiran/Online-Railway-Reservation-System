@@ -47,8 +47,8 @@ const AddTrain = () => {
       sleeperFare,
     };
     if (id) {
-       SearchService.updateTrain(id, TrainDetails)  
-      .then((response) => {
+      SearchService.updateTrain(id, TrainDetails)
+        .then((response) => {
           alert("Your Train has been updated");
           history.push("/adminTrainList");
         })

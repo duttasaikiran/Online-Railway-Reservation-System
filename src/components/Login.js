@@ -118,8 +118,8 @@ const Login = () => {
            <h1 className="booking">ADMIN LOGIN</h1>
            <hr></hr>
             <div className="inner">
-              <label><b>Admin Name</b></label>
-              <Field name="username" type="text" placeholder="Enter Admin name" />
+              <label><b>User Name</b></label>
+              <Field name="username" type="text" placeholder="Enter username" />
               <label><b>Password</b></label>
               <Field name="password" type="password" placeholder="Password" />
               <button
